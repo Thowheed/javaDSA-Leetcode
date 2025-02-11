@@ -3,7 +3,7 @@ package BinearySearch;
 public class InfiniteBinary {
     public static void main(String[] args) {
         int array[] = {1,22,33,44,55,66,77,88,100,101,103,110,120,150};
-        int target = 1;
+        int target = 150;
 
         System.out.println("infiniteSearch==>"+ ans(array,target));
 

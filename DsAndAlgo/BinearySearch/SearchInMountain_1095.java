@@ -5,9 +5,9 @@ public class SearchInMountain_1095 {
 
 //        int arr[] = {1, 3, 4, 5, 3,2, 1};
 //        int arr[] = {1,5,2};
-//        int arr[] = {0,1,5,3,0};
-        int arr[] = {1};
-        int target = 1;
+        int arr[] = {0,1,5,3,0};
+//        int arr[] = {1};
+        int target = 0;
 
 //        0,1,2,4,2,1
 //        if(arr.length > 1)
