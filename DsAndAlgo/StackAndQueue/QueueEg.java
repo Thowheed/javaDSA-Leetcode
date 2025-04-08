@@ -37,6 +37,10 @@ public class QueueEg {
         data1.addFirst(2);
         data1.addLast(3);
         System.out.println(data1);
+        data1.poll();
+        System.out.println(data1);
+        data1.offerLast(5);
+        System.out.println(data1);
 
 
     }
