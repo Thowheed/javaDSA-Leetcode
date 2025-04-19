@@ -7,7 +7,15 @@ public class FibonacciSeries {
         //f(n) = f(n-1)+f(n-2); // this is recurrence relation
 
         int ans = fibo(4);
+//        int ans = fibo(50);
         System.out.println("fibnocci==> "+ans);
+
+        // recursive call
+        // if you are calling a function again and again you can consider it as a seperate call in stack
+
+
+//        print(n+1);
+        // this is call tail recursion
     }
 
     public static int fibo(int n){

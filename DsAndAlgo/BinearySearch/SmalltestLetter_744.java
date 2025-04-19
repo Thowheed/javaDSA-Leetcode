@@ -4,7 +4,7 @@ public class SmalltestLetter_744 {
 
     public static void main(String[] args) {
         char[] letters = { 'c', 'f', 'j' };
-        char target = 'c';
+        char target = 'j';
         int start = 0;
         int end = letters.length - 1;
 

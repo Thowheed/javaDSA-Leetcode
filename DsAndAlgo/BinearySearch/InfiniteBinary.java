@@ -2,8 +2,9 @@ package BinearySearch;
 
 public class InfiniteBinary {
     public static void main(String[] args) {
-        int array[] = {1,22,33,44,55,66,77,88,100,101,103,110,120,150};
-        int target = 150;
+//        int array[] = {1,22,33,44,55,66,77,88,100,101,103,110,120,150,160,170};
+        int array[] = {1,2,3,4,5,6};
+        int target = 6;
 
         System.out.println("infiniteSearch==>"+ ans(array,target));
 
@@ -12,8 +13,12 @@ public class InfiniteBinary {
         int start = 0;
         int end = 1;
         while(arr[end] < target){
-            start = end +1;
-            end = start + (end-start+1)*2;
+            int newStart = end +1;
+            System.out.println("newStart==> "+newStart);
+            end = end + (end-start+1)*2;
+//            end = end*2;
+            System.out.println("end==> "+end);
+            start= newStart;
         }
         return binarySearch(arr,target,start,end);
     };
